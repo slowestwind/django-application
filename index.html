@@ -29,9 +29,22 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PNX8QB');</script>
+<!-- End Google Tag Manager -->
+
 </head>
 
 <body>
+
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PNX8QB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -51,9 +64,9 @@ Company</a>
                   <li class="active"><a href="#header">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <!-- <li><a href="#portfolio">Portfolio</a></li> -->
               <li><a href="#team">Team</a></li>
-              <li><a href="blog.html">Blog</a></li>
+              <!-- <li><a href="blog.html">Blog</a></li> -->
               <li><a href="#contact">Contact</a></li>
                 </ul>
               </li>
@@ -1016,6 +1029,21 @@ Login</a></li>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+    $(function() {
+        $('#whatsappButton').floatingWhatsApp({
+            phone: '+918295344931',
+            popupMessage: 'Hii, glad to see you?',
+            message: "I'd like to chat packerboys!.",
+            showPopup: true,
+            showOnIE: true,
+            headerTitle: '<img class="rounded m-1" src="assets/img/whatsapp.svg" width="20px" height="20px" /> Welcome!',
+            headerColor: '#30336b',
+            backgroundColor: '#dfe4ea',
+            buttonImage: '<img src="assets/img/whatsapp.svg" />'
+        });
+    });
+  </script>
 
 </body>
 
